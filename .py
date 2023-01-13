@@ -27,6 +27,8 @@ def run(self, version="Latest", software="Spigot"):
             urllib.request.urlretrieve(url, './soft.jar')
             if software == "Paper":
                 proc = subprocess.Popen(self.command, stdout=subprocess.PIPE)
+            else:
+                proc = subprocess.Popen(self.command2, stdout=subprocess.PIPE)
         while not proc.poll():
             data = proc.stdout.readline()
             if data:
