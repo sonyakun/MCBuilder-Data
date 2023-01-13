@@ -11,5 +11,8 @@
   "Paper1.11.2" : "https://api.papermc.io/v2/projects/paper/versions/1.11.2/builds/1106/downloads/paper-1.11.2-1106.jar",
   "Paper1.10.2" : "https://api.papermc.io/v2/projects/paper/versions/1.10.2/builds/918/downloads/paper-1.10.2-918.jar",
   "Paper1.9.4" : "https://api.papermc.io/v2/projects/paper/versions/1.9.4/builds/775/downloads/paper-1.9.4-775.jar",
-  "Paper1.8.8" : "https://api.papermc.io/v2/projects/paper/versions/1.8.8/builds/445/downloads/paper-1.8.8-445.jar"
+  "Paper1.8.8" : "https://api.papermc.io/v2/projects/paper/versions/1.8.8/builds/445/downloads/paper-1.8.8-445.jar",
+  "Magma1.12.2" : "https://git.magmafoundation.org/api/v4/projects/7/packages/maven/org/magmafoundation/Magma/1.12.2-a0c0ffb0/Magma-1.12.2-a0c0ffb0.jar",
+  "Magma1.16.5" : "https://git.magmafoundation.org/api/v4/projects/8/packages/maven/org/magmafoundation/Magma/1.16.5-36.2.39-c1c5a946/Magma-1.16.5-36.2.39-c1c5a946-server.jar",
+  "Magma1.18.2" : "https://git.magmafoundation.org/api/v4/projects/5/packages/maven/org/magmafoundation/Magma/1.18.2-40.2.0-ab9c2676/Magma-1.18.2-40.2.0-ab9c2676-server.jar"
 }
