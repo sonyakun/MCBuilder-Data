@@ -8,11 +8,12 @@ class CmdThread (threading.Thread):
    def __init__(self, textvar):
         threading.Thread.__init__(self)
         self.command = f"java -jar {soft}.jar"
+        self.command2 = f"java -jar {soft}.jar --rev {version}"
         self.textvar = textvar
-        run()
 
-def run(self, version="Latest", software="Spigot"):
+def run(self, version="latest", software="Spigot"):
     global soft
+    global version
     with urllib.request.urlopen("https://raw.githubusercontent.com/sonyakun/MCBuilder-Data/main/versions.json") as version_json:
         data = version_json.read()
         with open("./json_data/versions.json", mode='wb') as local_file:
